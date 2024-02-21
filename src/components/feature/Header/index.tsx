@@ -119,6 +119,7 @@ const HomeComponent = () => {
           <Link href="/login">Login</Link>
         </NavbarItem>
         <NavbarItem>
+          {/* signup button here  */}
           <Button as={Link} color="primary" href="/register" variant="flat">
             Register
           </Button>
