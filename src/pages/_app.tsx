@@ -2,7 +2,7 @@ import { type Session } from "next-auth";
 import { SessionProvider, signIn, useSession } from "next-auth/react";
 import { type AppType } from "next/app";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import {  NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider } from "@nextui-org/react";
 import { Toaster } from "react-hot-toast";
 import { Provider } from "react-redux";
 import store from "~@/_redux/store/store";
