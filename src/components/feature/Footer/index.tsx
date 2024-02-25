@@ -6,74 +6,10 @@ import { TiArrowRepeatOutline } from "react-icons/ti";
 const FooterComponent = () => {
   const currentYear = new Date().getFullYear();
   return (
-    // <footer className="bg-gray-900 py-4 text-gray-300">
-    //   <div className="container mx-auto px-4">
-    //     <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
-    //       {/* Programs */}
-    //       <div className="flex flex-col items-center justify-center gap-6 lg:flex-col">
-    //         <Link>
-    //           <h1 className="cursor-pointer text-xl font-bold text-gray-300">
-    //             Programs
-    //           </h1>
-    //         </Link>
-    //         <p>Corporate</p>
-    //         <p>One to One</p>
-    //         <p>Consulting</p>
-    //       </div>
-
-    //       {/* Services */}
-    //       <div className="flex flex-col items-center justify-center gap-6 lg:flex-col">
-    //         <Link>
-    //           <h1 className="cursor-pointer text-xl font-bold text-gray-300">
-    //             Services
-    //           </h1>
-    //         </Link>
-    //         <p>Services</p>
-    //         <p>One to One</p>
-    //         <p>Consulting</p>
-    //       </div>
-
-    //       {/* Contact */}
-    //       <div className="flex flex-col items-center justify-center gap-6 lg:flex-col">
-    //         <Link>
-    //           <h1 className=" cursor-pointer text-xl font-bold text-gray-300 ">
-    //             Contact
-    //           </h1>
-    //         </Link>
-    //         <p>Contact</p>
-    //         <p>One to One</p>
-    //         <p>Consulting</p>
-    //       </div>
-
-    //       {/* Newsletter */}
-    //       <div className=" flex flex-col items-center justify-center gap-6 lg:flex-col">
-    //         <h1 className="text-xl font-bold lg:text-center">Newsletter</h1>
-    //         <div className=" max-w-xs sm:max-w-md ">
-    //           <form className=" flex flex-col sm:flex-row">
-    //             <input
-    //               type="email"
-    //               name="email"
-    //               id="email"
-    //               placeholder="Enter your email"
-    //               className="mb-2 mr-3 w-full rounded-md border border-gray-300 px-10 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-    //             />
-    //             <Button color="primary">Subscribe</Button>
-    //           </form>
-    //         </div>
-    //         <div className="flex justify-center gap-2">
-    //           <FaCcVisa className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14" />
-    //           <FaCcMastercard className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14" />
-    //           <FaPaypal className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14" />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </footer>
-
     <footer className="bg-gray-900 py-4 text-gray-300">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
-          {/* Programs */}
+          {/* Schems */}
           <div className="flex flex-col items-center justify-center gap-6 lg:flex-col">
             <Link>
               <h1 className="cursor-pointer text-xl font-bold text-gray-300">
